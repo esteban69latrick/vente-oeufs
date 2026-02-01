@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Vente d'œufs</title>
+
+    <style>
+        body {
+            display: flex;
+            align-items: flex-start;
+            font-family: Arial, sans-serif;
+        }
+
+        .formulaire {
+            width: 25%;
+        }
+
+        .image {
+            width: 35%;
+            text-align: left;
+        }
+
+        .image img {
+            width: 70%;
+        }
+    </style>
+</head>
+<body>
+
+    <div class="formulaire">
+        <h1>🥚 Commande d'œufs</h1>
+
+        <form>
+            <h2>Ton nom :</h2>
+
+            <input type="radio" name="nom" value="Mamie"> Mamie<br>
+            <input type="radio" name="nom" value="Papi"> Papi<br>
+            <input type="radio" name="nom" value="Vanessa"> Vanessa<br>
+            <input type="radio" name="nom" value="Mousse"> Mousse<br>
+            <input type="radio" name="nom" value="Ilyes"> Ilyes<br>
+            <input type="radio" name="nom" value="Emma"> Emma<br>
+            <input type="radio" name="nom" value="Ophélie"> Ophélie<br>
+            <input type="radio" name="nom" value="Annie"> Annie<br>
+            <input type="radio" name="nom" value="Autre"> Autre :
+            <input type="text" name="autre_nom"><br>
+
+            <h2>Nombre d'œufs :</h2>
+
+            <input type="radio" name="oeufs" value="1"> 1 œuf<br>
+            <input type="radio" name="oeufs" value="2"> 2 œufs<br>
+            <input type="radio" name="oeufs" value="3"> 3 œufs<br>
+            <input type="radio" name="oeufs" value="4"> 4 œufs<br>
+            <input type="radio" name="oeufs" value="5"> 5 œufs<br>
+            <input type="radio" name="oeufs" value="6"> 6 œufs (2€)<br><br>
+
+            <input type="submit" value="Commander 🥚">
+        </form>
+    </div>
+
+    <div class="image">
+        <img src="https://media.istockphoto.com/id/831791190/fr/photo/hen.jpg?s=612x612&w=0&k=20&c=DEom4VLsDA70sMTk_kz6x-tbeBTMKPQPgd8fQ9bxdcg=" alt="Poule">
+    </div>
+
+</body>
+</html>
